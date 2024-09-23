@@ -1,0 +1,329 @@
+{
+    "last_cmd": "cvv",
+    "users": 202891,
+    "28815": {
+        "plan": "VIP",
+        "timer": "2024-07-03 10:28",
+        "funds": 0,
+        "order": "rec"
+    },
+    "/xc": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Stripe Auth CCN",
+        "def": "xc"
+    },
+    "/stn": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Stripe 5$ CCN",
+        "def": "stn"
+    },
+    "/stc": {
+        "status": "ofline",
+        "typ": "Free",
+        "file": "yes",
+        "name": "unknown Auth CCN",
+        "def": "stc"
+    },
+    "/vip": {
+        "status": "ofline",
+        "typ": "Free",
+        "file": "yes",
+        "name": "unknown Auth",
+        "def": "vip"
+    },
+    "/pro": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 5",
+        "def": "pro"
+    },
+    "/x": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 3",
+        "def": "x"
+    },
+    "/chk": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 1",
+        "def": "chk"
+    },
+    "/sa": {
+        "status": "ofline",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Stripe Auth 4",
+        "def": "sa"
+    },
+    "/cc": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 2",
+        "def": "ccx"
+    },
+    "/pay": {
+        "status": "ofline",
+        "typ": "Free",
+        "file": "yes",
+        "name": "PayPal 0.1$",
+        "def": "pay"
+    },
+    "/pp": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "PayPal 1$",
+        "def": "pp"
+    },
+    "/gg": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Google Play 0.1$",
+        "def": "gg"
+    },
+    "/sd": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Stripe Auth 1",
+        "def": "sd"
+    },
+    "/cn": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree CCN 3$",
+        "def": "cn"
+    },
+    "/sq": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Square Auth 1",
+        "def": "sq"
+    },
+    "/pw": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Payflow Auth",
+        "def": "pw"
+    },
+    "/ch": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree CVV 3$",
+        "def": "ch"
+    },
+    "/sc": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Stripe Auth 3",
+        "def": "scc"
+    },
+    "/br": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree + woocommerce 5$",
+        "def": "br"
+    },
+    "/vbv": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "3DS Lookup",
+        "def": "vbv"
+    },
+    "/be": {
+        "status": "ofline",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Charge 25$",
+        "def": "be"
+    },
+    "/au": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree Auth CCN",
+        "def": "au"
+    },
+    "/squ": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Square Auth 2",
+        "def": "sq"
+    },
+    "/auth": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 4",
+        "def": "auth"
+    },
+    "/chg": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree CVV 3$",
+        "def": "chg"
+    },
+    "/cvv": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Braintree Auth 6",
+        "def": "cvv"
+    },
+    "/ccn": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree CCN 1$",
+        "def": "ccn"
+    },
+    "/sqq": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Square Auth 3",
+        "def": "sq"
+    },
+    "/sl": {
+        "status": "Online",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Square Auth 4",
+        "def": "sq"
+    },
+    "/so": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Square Auth 5",
+        "def": "sq"
+    },
+    "/sh": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Square CVV 1$",
+        "def": "sh"
+    },
+    "/st": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Stripe CVV 3$",
+        "def": "st"
+    },
+    "/str": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Stripe CVV 12$",
+        "def": "str"
+    },
+    "/sf": {
+        "status": "Online",
+        "typ": "Free",
+        "file": "yes",
+        "name": "Stripe Auth 2",
+        "def": "sf"
+    },
+    "/sv": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Stripe CVV 5$",
+        "def": "sv"
+    },
+    "/ka": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Kashier 0.2$",
+        "def": "ka"
+    },
+    "/b3": {
+        "status": "ofline",
+        "typ": "Premium",
+        "file": "yes",
+        "name": "Braintree Auth",
+        "def": "b3"
+    },
+    "2000919581": {
+        "plan": "premium",
+        "timer": "2026-12-03 07:24",
+        "funds": 0,
+        "order": ""
+    },
+    "VENOM-AXPR-911V-QJF0": {
+        "plan": "premium",
+        "time": "2024-11-13 05:49"
+    },
+    "VENOM-2NB7-CA5I-VKGJ": {
+        "plan": "premium",
+        "time": "2047-06-16 07:06"
+    },
+    "VENOM-UUST-TE84-H3KX": {
+        "plan": "premium",
+        "time": "2024-08-22 00:46"
+    },
+    "VENOM-W9FH-YUYO-XV6J": {
+        "plan": "premium",
+        "time": "2047-06-17 08:50"
+    },
+    "6751413200": {
+        "plan": "premium",
+        "timer": "3165-06-09 15:51",
+        "funds": 0,
+        "order": ""
+    },
+    "5403148124": {
+        "plan": "premium",
+        "timer": "2047-06-17 09:12",
+        "funds": 0,
+        "order": ""
+    },
+    "2134756129": {
+        "timer": "2024-11-17 10:16",
+        "plan": "premium"
+    },
+    "5691355382": {
+        "plan": "premium",
+        "timer": "2024-11-14 10:11",
+        "funds": 0,
+        "order": ""
+    },
+    "7429238429": {
+        "timer": "2024-08-26 23:57",
+        "plan": "premium"
+    },
+    "7429258429": {
+        "plan": "premium",
+        "timer": "2138-09-25 14:32",
+        "funds": 0,
+        "order": ""
+    },
+    "7429258499": {
+        "plan": "premium",
+        "timer": "2024-11-29 07:54",
+        "funds": 0,
+        "order": ""
+    }
+}

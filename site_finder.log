@@ -1,0 +1,26 @@
+2024-08-26 20:32:09,687:ERROR:DNS resolution error for ldsamcap.org: cannot open /etc/resolv.conf
+2024-08-26 20:32:10,107:ERROR:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+2024-08-26 20:32:10,109:ERROR:Exception traceback:
+Traceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "<string>", line 123, in check_site
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/__init__.py", line 5719, in reply_to
+    return self.send_message(message.chat.id, text, reply_parameters=reply_parameters, **kwargs)
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/__init__.py", line 1756, in send_message
+    apihelper.send_message(
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.9/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+
+2024-08-26 20:32:45,025:ERROR:DNS resolution error for ldsamcap.org: cannot open /etc/resolv.conf
